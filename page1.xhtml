@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <body>
+
+        <ui:composition template="./template.xhtml">
+
+            <ui:define name="top">
+                <h2>Seja bem vindo ao site</h2>
+            </ui:define>
+
+            <ui:define name="left">
+                <h3>Links</h3>
+                <ul>
+                    <li>
+                        <h:outputLink value="https://youtube.com">
+                        <h:outputText value="YouTube"/>
+                        </h:outputLink>
+                    </li>
+                </ul>
+                
+                <ul>
+                    <li>
+                        <h:outputLink value="https://facebook.com">
+                        <h:outputText value="Facebook"/>
+                        </h:outputLink>
+                    </li>
+                </ul>
+                
+                <ul>
+                    <li>
+                        <h:outputLink value="https://Google.com">
+                        <h:outputText value="Pesquisar no Google"/>
+                        </h:outputLink>
+                    </li>
+                </ul>
+            </ui:define>
+
+            <ui:define name="content">
+                <p>
+                    Enquanto densenvolvendores dentro de uma IDE (ambiente integrado de desenvolvimento) a primeira coisa 
+                    que devemos fazer é criar um novo projeto para armazenar os nossos arquivos, arquivos fontes, arquivos 
+                    de configuração e demais recursos para a aplicação no caso do desenvolvimento Web Java isso nao é diferente.
+                </p>
+                <p>
+                    JFS seria um framework ou seja biblioteca para desenvolver software, ou seja é um abstração que reuni 
+                    códigos em comum que podem ser utilizado em diferentes apliçaçoes somente chamado seus objetos. 
+                    Permitindo a separação entre lógica e regras de negocio, navegação, conexao com servicos externos e 
+                    gereciamento de configurações e de um modelo de interfaces graficas baseado em eventos.
+                </p>
+                
+             
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>
